@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="description" content="History Cleaner - A simple extension to clean your specific browser history.">
+  <meta name="keywords" content="History Cleaner, browser extension, clean history, delete history, privacy, security">
+  <meta name="author" content="Asifur Rahman">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Bookmark Manager</h2>
+      <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+    </div>
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="Search by name or website...">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="folder-creation">
+      <input type="text" id="newFolderInput" placeholder="New folder name...">
+      <button id="createFolderBtn">Create</button>
+    </div>
+    <div class="controls">
+      <select id="sortOptions">
+        <option value="title-asc">Sort by Name (A-Z)</option>
+        <option value="title-desc">Sort by Name (Z-A)</option>
+        <option value="url-asc">Sort by URL (A-Z)</option>
+        <option value="url-desc">Sort by URL (Z-A)</option>
+        <option value="date-asc">Sort by Date (Oldest)</option>
+        <option value="date-desc">Sort by Date (Newest)</option>
+      </select>
+     
+      <div class="move-to">
+        <select id="folderSelect">
+          <option value="">Move to...</option>
+        </select>
+        <button id="moveSelectedBtn" disabled>Move</button>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <div class="controls">
+    <button id="selectAllBtn">Select All</button>
+    <button id="deleteSelectedBtn" disabled>Delete Selected</button>
+  </div>
+  <script src="sidebar.js"></script>
+</body>
+<footer id="footer">Developed by <a id="authr" href="https://bd.linkedin.com/in/asifious" target="_blank">Asif</a></footer>
+</html>
