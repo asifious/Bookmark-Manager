@@ -2,6 +2,12 @@
 
 An all-in-one bookmark management extension that helps you organize your browser bookmarks quickly and easily from a convenient sidebar interface.
 
+![image](https://github.com/user-attachments/assets/25cb712d-2f73-4941-8f30-a593ac1042f6)
+
+![image](https://github.com/user-attachments/assets/0785d53b-cc1d-454e-affb-c879f59ebd16)
+
+
+
 ## Features
 
 - View all your bookmarks in one place
